@@ -1,8 +1,9 @@
 public class Factorial {
     public static int calculate(int number){
+        int i = 0;
         int result = 1;
-        for(int i = 1; i <= number; i++) {
-            result = result * i;
+        while(i++ < number) {
+            result *= i;
         }
         return result;
     }
