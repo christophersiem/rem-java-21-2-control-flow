@@ -3,7 +3,7 @@ public class FillStudentArray {
         String[] strings = new String[size];
 
         for (int i = 0; i < strings.length; i++) {
-            strings[i] = "Student " + (i+1);
+            strings[i] = "Student " + (i + 1);
         }
         return strings;
     }
